@@ -1,6 +1,5 @@
-# hello-world
- My first repository
+# Matt Pribadi's Project Examples
+## School: University of California, Berkeley
+## Major: Masters of Information and Data Science (MIDS), Class of 2022
 
-Testing 1... 2... 3... want to do something so I can commit the changes.
-
-Update on Desktop
+Repository of the projects throughout my time in this data science program.

@@ -4,7 +4,7 @@
 ### Major: Masters of Information and Data Science (MIDS), Class of 2022
 
 Repository of the projects throughout my time in this data science program
-*Note, any code I include is the product of my own work or my part of the project*
+
 
 Class List:
 
@@ -14,3 +14,7 @@ Class List:
 - Summer 2021
   - **W203: Statistics for Data Science**
   - **W205: Fundamentals of Data Engineering**
+
+
+
+#### *Note, any code I include is the product of my own work or my part of the project*

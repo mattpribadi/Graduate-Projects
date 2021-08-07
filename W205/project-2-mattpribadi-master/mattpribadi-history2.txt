@@ -1,0 +1,186 @@
+    1  docker run midsw205/base
+    2  cd w205
+    3  docker run midsw205/base
+    4  docker run midsw205/base bash
+    5  ls
+    6  docker run midsw205/base pwd
+    7  docker run -it --rm midsw205/base bash
+    8  docker run -it --rm -v ~/w025:/w205 midsw205/base bash
+    9  docker ps
+   10  ls
+   11  docker run -it --rm -v ~/w025:/w205 midsw205/base bash
+   12  docker run -it --rm -v ~/w205:/w205 midsw205/base bash
+   13  docker run redis
+   14  clear
+   15  docker ps
+   16  docker run redis
+   17  docker run -d redis
+   18  docker ps
+   19  docker rm --force 2aa16ddbcc63
+   20  docker ps
+   21  docker run -d --name  redis -p 6379:6379 redis
+   22  docker ps
+   23  docker rm --force 3bcea76f4d9d
+   24  sudo apt update
+   25  sudo apt install docker-compose
+   26  cd w205/
+   27  mkdir ~w205/redis-standalone
+   28  mkdir ~/redis-standalone
+   29  ls
+   30  cd `
+   31  cd ~
+   32  ls
+   33  rm -force -redis-standalone
+   34  ls
+   35  rm --help
+   36  rm -f -redis-standalone
+   37  rm -f redis-standalone
+   38  rm -f --dir
+   39  ls
+   40  rm -f --dir redis-standalone
+   41  ls
+   42  cd w205
+   43  mkdir redis-standalone
+   44  ls
+   45  cd redis-standalone
+   46  docker-compose p
+   47  docker-compose up
+   48  mkdir ~/w205/redis-cluster
+   49  cd ../redis-
+   50  cd ../redis-cluster
+   51  docker compose up
+   52  docker-compose up
+   53  docker ps
+   54  docker-compose up -d
+   55  docker ps
+   56  clear
+   57  docker ps
+   58  docker-compose mids
+   59  docker-compose mids bash
+   60  clear
+   61  docker ps
+   62  docker-compose exec mids bash
+   63  docker-compose ps
+   64  docker-compose down
+   65  docker-compose up -d
+   66  docker-compose down
+   67  ls
+   68  open ~/.zshrc
+   69  cd ~/.zshrc
+   70  ls
+   71  ls -h
+   72  clear
+   73  cd w205/project-2-mattpribadi
+   74  ls
+   75  history > mattpribadi-history.txt
+   76  curl -L -o assessment-attempts-20180128-121051-nested.json https://goo.gl/ME6hjp`\n\n
+   77  curl -L -o assessment-attempts-20180128-121051-nested.json https://goo.gl/ME6hjp\n\n
+   78  history > mattpribadi-history.txt
+   79  cd ../
+   80  ls
+   81  cd course-content-summer2021
+   82  git pull
+   83  ls
+   84  cd ../
+   85  ls
+   86  cd project-2-mattpribadi
+   87  ls
+   88  history > mattpribadi-history.txt
+   89  docker-compose up -d
+   90  docker-compose logs -f kafka
+   91  docker-compose exec cloudera hadoop fs -ls /tmp/
+   92  docker-compose exec kafka \\n  kafka-topics \\n    --create \\n    --topic assessment \\n    --partitions 1 \\n    --replication-factor 1 \\n    --if-not-exists \\n    --zookeeper zookeeper:32181
+   93  docker-compose ps
+   94  docker-compose exec kafka_1 \\n  kafka-topics \\n    --create \\n    --topic assessment \\n    --partitions 1 \\n    --replication-factor 1 \\n    --if-not-exists \\n    --zookeeper zookeeper:32181
+   95  docker-compose exec kafka \\n  kafka-topics \\n    --create \\n    --topic assessment \\n    --partitions 1 \\n    --replication-factor 1 \\n    --if-not-exists \\n    --zookeeper zookeeper:32181
+   96  docker-compose logs -f kafka
+   97  docker-compose up -d
+   98  docker-compose exec kafka \\n  kafka-topics \\n    --create \\n    --topic assessment \\n    --partitions 1 \\n    --replication-factor 1 \\n    --if-not-exists \\n    --zookeeper zookeeper:32181
+   99  docker-compose logs -f kafka
+  100  docker-compose exec kafka \\n  kafka-topics \\n    --create \\n    --topic assessment \\n    --partitions 1 \\n    --replication-factor 1 \\n    --if-not-exists \\n    --zookeeper zookeeper:32181
+  101  docker-compose up -d
+  102  docker-compose exec kafka \\n  kafka-topics \\n    --create \\n    --topic assessment \\n    --partitions 1 \\n    --replication-factor 1 \\n    --if-not-exists \\n    --zookeeper zookeeper:32181
+  103  docker-compose ps
+  104  docker-compose down
+  105  docker-compose up -d
+  106  docker-compose exec kafka \\n  kafka-topics \\n    --create \\n    --topic assessment \\n    --partitions 1 \\n    --replication-factor 1 \\n    --if-not-exists \\n    --zookeeper zookeeper:32181
+  107  docker-compose ps
+  108  mkdir ~/w205/project2
+  109  mkdir ~/w205/project-2-mattpribadi/project2
+  110  cd project2
+  111  docker-compose up -d
+  112  docker-compose ps
+  113  docker-compose up -d
+  114  ls
+  115  cd w205
+  116  ls
+  117  cd project-2-mattpribadi
+  118  ls
+  119  docker-compose up -d
+  120  docker-compose exec spark ln -s /w205 w205\n
+  121  docker-compose ps
+  122  docker-compose exec kafka \\n  kafka-topics \\n    --create \\n    --topic players \\n    --partitions 1 \\n    --replication-factor 1 \\n    --if-not-exists \\n    --zookeeper zookeeper:32181
+  123  docker-compose exec kafka \\n  kafka-topics \\n    --delete \\n    --topic players
+  124  docker-compose exec kafka \\n  kafka-topics \\n    --delete \\n    --topic players \\n    --partitions 1 \\n    --replication-factor 1 \\n    --if-not-exists \\n    --zookeeper zookeeper:32181
+  125  docker-compose down -d
+  126  docker-compose ps
+  127  docker-compose down
+  128  docker-compose up -d
+  129  docker-compose exec kafka \\n  kafka-topics \\n    --create \\n    --topic assessment \\n    --partitions 1 \\n    --replication-factor 1 \\n    --if-not-exists \\n    --zookeeper zookeeper:32181
+  130  docker-compose exec spark ln -s /w205 w205\n
+  131  docker-compose exec kafka \\n  kafka-topics \\n    --create \\n    --topic assessment \\n    --partitions 1 \\n    --replication-factor 1 \\n    --if-not-exists \\n    --zookeeper zookeeper:32181
+  132  docker-compose ps
+  133  docker-compose exec kafka \\n  kafka-topics \\n  --describe \\n  --topic player \\n  --zookeeper zookeeper:32181\n
+  134  docker-compose exec kafka \\n  kafka-topics \\n  --describe \\n  --topic assessment \\n  --zookeeper zookeeper:32181\n
+  135  docker-compose exec spark ln -s /w205 w205\n
+  136  docker-compose ps
+  137  docker-compose exec kafka \\n  kafka-topics \\n    --create \\n    --topic assessment \\n    --partitions 1 \\n    --replication-factor 1 \\n    --if-not-exists \\n    --zookeeper zookeeper:32181
+  138  docker-compose exec spark pyspark
+  139  ls
+  140  cd w205
+  141  git clone https://github.com/kevin-crook-ucb/ucb_w205_crook_supplement.git
+  142  docker-compose exec spark env PYSPARK_DRIVER_PYTHON=jupyter PYSPARK_DRIVER_PYTHON_OPTS='notebook --no-browser --port 8888 --ip 0.0.0.0 --allow-root' pyspark
+  143  docker-compose exec spark env PYSPARK_DRIVER_PYTHON=jupyter PYSPARK_DRIVER_PYTHON_OPTS='notebook --no-browser --port 8889 --ip 0.0.0.0 --allow-root' pyspark
+  144  docker-compose down -d
+  145  docker-compose down
+  146  docker-compose ps
+  147  docker-compose up -d
+  148  docker-compose exec spark ln -s /w205 w205
+  149  docker-compose exec kafka \\n  kafka-topics \\n    --create \\n    --topic assessment \\n    --partitions 1 \\n    --replication-factor 1 \\n    --if-not-exists \\n    --zookeeper zookeeper:32181\n
+  150  docker-compose exec spark ln -s /w205 w205
+  151  docker-compose ps
+  152  docker-compose exec kafka \\n  kafka-topics \\n    --create \\n    --topic assessment \\n    --partitions 1 \\n    --replication-factor 1 \\n    --if-not-exists \\n    --zookeeper zookeeper:32181\n
+  153  docker-compose exec spark pyspark
+  154  docker-compose exec spark env PYSPARK_DRIVER_PYTHON=jupyter PYSPARK_DRIVER_PYTHON_OPTS='notebook --no-browser --port 8889 --ip 0.0.0.0 --allow-root' pyspark\n
+  155  history > mattpribadi-history.txt
+  156  docker-compose exec spark env PYSPARK_DRIVER_PYTHON=jupyter PYSPARK_DRIVER_PYTHON_OPTS='notebook --no-browser --port 8889 --ip 0.0.0.0 --allow-root' pyspark\n
+  157  docker-compose ps
+  158  docker-compose exec mids bash -c "cat /w205/project-2-mattpribadi/assessment-attempts-20180128-121051-nested.json | jq '.[]' -c | kafkacat -P -b kafka:29092 -t assessments"
+  159  docker-compose exec spark env PYSPARK_DRIVER_PYTHON=jupyter PYSPARK_DRIVER_PYTHON_OPTS='notebook --no-browser --port 8889 --ip 0.0.0.0 --allow-root' pyspark\n
+  160  ls
+  161  cd w205/project-2-mattpribadi
+  162  ls
+  163  docker-compose ps
+  164  ls
+  165  docker-compose ps
+  166  docker-compose exec spark env PYSPARK_DRIVER_PYTHON=jupyter PYSPARK_DRIVER_PYTHON_OPTS='notebook --no-browser --port 8889 --ip 0.0.0.0 --allow-root' pyspark
+  167  cd 
+  168  ls
+  169  cd w205
+  170  ls
+  171  cd project-2-mattpribadi
+  172  ls
+  173  docker-compose ps
+  174  docker-compose exec spark env PYSPARK_DRIVER_PYTHON=jupyter PYSPARK_DRIVER_PYTHON_OPTS='notebook --no-browser --port 8889 --ip 0.0.0.0 --allow-root' pyspark
+  175* cd w205/project-2-mattpribadi
+  176  jupyter notebook
+  177  docker-compose ps
+  178  docker-compose -d
+  179  docker-compose down
+  180  docker-compose up -d
+  181  docker-compose exec cloudera hadoop fs -ls /tmp/
+  182  docker-compose exec spark ln -s /w205 w205
+  183  docker-compose exec kafka \\n  kafka-topics \\n    --create \\n    --topic assessment \\n    --partitions 1 \\n    --replication-factor 1 \\n    --if-not-exists \\n    --zookeeper zookeeper:32181\n
+  184  docker-compose exec spark pyspark
+  185  docker-compose exec mids bash -c "cat /w205/project-2-mattpribadi/assessment-attempts-20180128-121051-nested.json | jq '.[]' -c | kafkacat -P -b kafka:29092 -t assessments"
+  186  docker-compose exec spark env PYSPARK_DRIVER_PYTHON=jupyter PYSPARK_DRIVER_PYTHON_OPTS='notebook --no-browser --port 8889 --ip 0.0.0.0 --allow-root' pyspark

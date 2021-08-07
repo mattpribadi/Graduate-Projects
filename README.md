@@ -5,6 +5,7 @@
 
 Repository of the projects throughout my time in this data science program
 
+
 Class List:
 
 - Spring 2021
@@ -13,3 +14,7 @@ Class List:
 - Summer 2021
   - **W203: Statistics for Data Science**
   - **W205: Fundamentals of Data Engineering**
+
+
+
+#### *Note, any code I include is the product of my own work or my part of the project*

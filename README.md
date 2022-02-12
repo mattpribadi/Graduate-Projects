@@ -14,7 +14,10 @@ Class List:
 - Summer 2021
   - **W203: Statistics for Data Science**
   - **W205: Fundamentals of Data Engineering**
-
+- Fall 2021
+  - **W207: Applied Machine Learning**
+- Spring 2022
+  - **W261: Machine Learning at Scale**
 
 
 #### *Note, any code I include is the product of my own work or my part of the project*

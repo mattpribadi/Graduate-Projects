@@ -1,0 +1,65 @@
+# go to folder and run docker-compose
+cd w205/w205-project3
+docker-compose up -d
+
+
+# checking cloudera
+docker-compose ps
+## run if cloudera is not working and is displaying exit 139 (should be a one time fix, will need to rerun terminal/prev commands after)
+sudo -s
+echo 'GRUB_CMDLINE_LINUX_DEFAULT="vsyscall=emulate"' >> /etc/default/grub
+update-grub
+reboot
+
+
+# start the kafka event 
+docker-compose exec kafka kafka-topics --create --topic events --partitions 1 --replication-factor 1 --if-not-exists --zookeeper zookeeper:32181
+
+
+# start the flask app
+docker-compose exec mids env pip install bs4
+docker-compose exec mids env FLASK_APP=/w205/w205-project3/Spotify_genius_api.py flask run --host 0.0.0.0
+
+
+# run events 
+## auto pull playlist events (new terminal!)
+cd w205/w205-project3
+while true; do
+  docker-compose exec mids \
+    ab -n 1 -s 86400  -H "Host: user2.att.com" \
+      http://localhost:5000/get_playlist
+  sleep 43200
+done
+
+## auto pull lyrics events (new terminal!)
+cd w205/w205-project3
+while true; do
+  docker-compose exec mids \
+    ab -n 1 -s 86400 -H "Host: user2.att.com" \
+      http://localhost:5000/get_lyrics
+  sleep 43200
+done
+
+
+# write to hdfs and check  (new terminal!)
+cd w205/w205-project3
+docker-compose exec spark spark-submit /w205/w205-project3/filtered_writes.py
+
+
+#hive
+## register tables to hive (new terminal!)
+cd w205/w205-project3
+docker-compose exec cloudera hive
+
+## create playlist table
+create external table if not exists default.playlist (Accept string, Host string, User_Agent string, event_type string, timestamp string, raw_event string) stored as parquet location '/tmp/playlist'  tblproperties ("parquet.compress"="SNAPPY");
+
+## create lyrics table
+create external table if not exists default.lyrics (Accept string, Host string, User_Agent string, event_type string, timestamp string, raw_event string) stored as parquet location '/tmp/lyrics'  tblproperties ("parquet.compress"="SNAPPY");
+
+
+# Pipeline complete! Ready for Tisane Analysis
+
+
+
+

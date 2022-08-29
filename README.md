@@ -28,4 +28,7 @@ Class List:
   - **W261: Machine Learning at Scale**
   > This course builds on and goes beyond this collect-and-analyze phase of big data by focusing on how machine learning algorithms can be rewritten and in some cases extended to scale to work on petabytes of data, both structured and unstructured, to generate sophisticated models that can be used for real-time predictions.
 
+- Fall 2022
+  - **W266: Natural Language Processing and Deep Learning**
+  - **W209: Data Visualization**
 

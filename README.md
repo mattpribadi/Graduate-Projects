@@ -1,7 +1,7 @@
 # Matt Pribadi's Project Examples
 
 ### School: University of California, Berkeley
-### Major: Masters of Information and Data Science (MIDS), Class of Dec 2022 (est.)
+### Major: Masters of Information and Data Science (MIDS), Class of May 2023 (est.)
 
 Repository of the projects and coursework throughout my time in this data science program
 
